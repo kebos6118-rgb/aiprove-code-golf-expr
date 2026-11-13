@@ -1,0 +1,1 @@
+exports.evalExpr=s=>eval(s.replace(/[+-]+/g,m=>'-+'[m.split('-').length%2]))
